@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
+}
+
+nav {
+    margin-bottom: 25px;
+    background-color: #cecece;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    margin: 0 auto;
+}
+
+nav ul {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto
+}
+
+header {
+    margin-top: 60px;
+}
+
+header,
+section:not(:last-child) {
+    margin-bottom: 400px;
+}
